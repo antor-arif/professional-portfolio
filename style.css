@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.nam{
+    font-size: 50px;
+    
+    margin-left: 1px;
+}
+.logo{
+    font-size: 25px;
+}
+.van:hover{
+         animation-duration: 5s;
+}
+
