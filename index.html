@@ -7,42 +7,57 @@
     <title>Arifur Rahman - Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link rel="icon" type="image/x-icon" href="dev.jpg">
     <script src="js/bootstrap.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-black text-white">
 
    <!--start of navbar-->
-   <div class="row">
-    <nav class=" text-white flex justify-between col-lg-12 col-md-6 col-sm-4">
+   <div class=" container-fluid lg:flex md:flex">
+    <div class="navbar-brand">
       <p class="font-medium w-1/5 justify-between py-4 px-10 cursor-pointer logo col-md-4 col-sm-3" href="#"> <b class="text-red-500 font-extrabold font-sans">Arifur</b><b class="text-green-500 font-sans">Rahman</b></p>
+    </div>
+    <div class="lg:flex md:flex sm:flex">
+    <div class="container mx-72">
+      <nav class=" text-white navbar-nav me-auto mb-2 mb-lg-0 flex justify-between col-lg-12 col-md-6 col-sm-4 mx-72">
       
-      <ul class="px-7 py-3 flex justify-end px-3 space-x-6 van col-sm-3">
-        
-        <li><a href="#home" class="hover:text-blue-400">Home</a></li>
-        <li><a href="#projects" class="hover:text-blue-400"> Projects</a></li>
-        <li><a href="#services" class="hover:text-blue-400">Services</a></li>
-        <li><a href="#skills" class="hover:text-blue-400">Skills</a></li>
-        <li><a href="#contacts" class="hover:text-blue-400">Contacts</a></li>
-      </ul>
-    </nav>
+      
+        <ul class="px-7 py-3 flex justify-end px-3 space-x-6 van col-sm-3">
+          
+          <li class="nav-item"><a href="#home" class="hover:text-blue-400 nav-link">Home</a></li>
+          <li class="nav-item"><a href="#projects" class="hover:text-blue-400 nav-link"> Projects</a></li>
+          <li class="nav-item"><a href="#services" class="hover:text-blue-400 nav-link">Services</a></li>
+          <li class="nav-item"><a href="#skills" class="hover:text-blue-400 nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#contacts" class="hover:text-blue-400 nav-link">Contacts</a></li>
+        </ul>
+      </nav>
+    </div>
+     </div>
    </div>
+   <div class="container text-right" >
+    <a href="#contacts" class="btn bg-red-300 hover:bg-slate-900 hover:shadow-lg hover:shadow-white text-white font-bold rounded-full px-6">Let's Talk</a>
+   </div><br><br><br><br><br>
    <!--End of navbar-->
    <div>
-    <img src="mybg1.png" class=" w-1/3 float-right py-5 px-6" id="home">
-    <h1 class="py-32 px-16 font-bold font-700 nam ">Hey,I'm  <span class="text-red-500" id="auto-type"></span></h1>
-    <h3 class="px-16 w-1/2 flex font-semibold"> Web developer from Rajshahi,Bangladesh. I creat custom and fully responsive websites. I'm a MERN stack web developer.</h3>
+    <div class="">
+      <img src="mybg1.png" class=" w-1/3 float-right py-5 px-6" id="home">
+    </div>
+    <div>
+      <h1 class="py-32 px-16 font-bold font-700 nam ">Hey,I'm  <span class="text-red-500" id="auto-type"></span></h1>
+    <h3 class="px-16 w-1/2 flex font-semibold"> Web developer from Rajshahi,Bangladesh. I creat custom and fully responsive websites,Web Apps and Mobile apps. I'm a MERN, PERN stack web developer and develop mobile apps with React Native.</h3>
+    </div>
     
-   </div><br><br><br>
+    
+   </div><br><br><br><br><br><br><br><br><br><br><br><br>
  <!--Projects Section start-->
-   <div class="px-14 py-12" >
-    <a href="#" class="btn bg-blue-500 hover:bg-blue-700 hover:shadow-lg hover:shadow-blue-700 text-white font-bold py-2 px-4 rounded-full px-6 cv">Download my CV</a><br><br>
+   <!-- <div class="px-14 py-12" >
+    <a href="#" class="btn bg-blue-500 hover:bg-blue-700 hover:shadow-lg hover:shadow-blue-700 text-white font-bold py-2 px-4 rounded-full px-6 cv">Download my CV</a><br><br> -->
     
    </div>
-   <div class="px-14" >
-    <a href="#" class="btn bg-red-300 hover:bg-red-700 hover:shadow-lg hover:shadow-red-700 text-white font-bold py-2 px-4 rounded-full px-6 cv">Hire Me</a>
-   </div><br><br><br><br><br><br><br><br><br>
+   <!-- <div class="px-14" >
+    <a href="#contacts" class="btn bg-red-300 hover:bg-red-700 hover:shadow-lg hover:shadow-red-700 text-white font-bold py-2 px-4 rounded-full px-6 cv">Let's Talk</a>
+   </div> -->
     <!--Buttons Section end-->
 
   
@@ -57,11 +72,17 @@
       <h2 class="font-extrabold mx-10">Panda commerce:-</h2>
       <iframe src="https://antor-arif.github.io/panda-commerce1/" class="w-1/2 rounded-md flex align-middle p-5  min-w-full h-96"> Panda commerce</iframe>
      </div><br><br><br><br><br><br><br>
+     <div>
+      <h2 class="font-extrabold mx-10">BetaSquad:-</h2>
+      <iframe src="https://admin-panel-squad.netlify.app" class="w-1/2 rounded-md flex align-middle p-5  min-w-full h-96"> Panda commerce</iframe>
+     </div><br><br><br><br><br><br><br>
      <!--Projects Section end-->
 
 <!--Skills Section start-->
      <div id="skills">
-        <h1 class="font-extrabold text-3xl mx-10 text-blue-700">Skills</h1>
+      <div class="lg:flex md:flex sm:block">
+        <div class="w-1/2">
+          <h1 class="font-extrabold text-3xl mx-10 text-blue-700">Skills</h1>
         <h2 class="font-extrabold mx-10 py-5 text-red-400"> Front End :
         </h2>
         <ul class="mx-10">
@@ -72,16 +93,33 @@
           <li>* <span class="text-yellow-200 font-bold">JavaScript</span>- Advanced Javascript.</li>
           <li>* <span class="text-yellow-200 font-bold">ReactJS</span>- Javascript library.</li>
 
-        </ul><br><br>
-
+        </ul>
+        </div>
+        <div class="mx-56  sm:mt-32">
+          <img src="frontend.png" alt="" srcset="">
+        </div>
+        
+      </div>
+        <br><br>
+       <div class="lg:flex md:flex sm:block">
+        
+      <div>
         <h2 class="font-extrabold mx-10 py-5 text-red-400"> Back End :
         </h2>
         <ul class="mx-10">
         <li>* <span class="text-yellow-200 font-bold">NodeJS</span>- Server environment of Javascript.</li>
         <li>* <span class="text-yellow-200 font-bold">ExpressJS</span>- Backend web application framework of Javascript.</li>
+        <li>* <span class="text-yellow-200 font-bold">Python</span>- Python is a versatile, high-level programming language known for its simplicity, readability, and extensive libraries.</li>
+        <li>* <span class="text-yellow-200 font-bold">Django</span>- Django is a powerful Python web framework for building web applications with a focus on simplicity and productivity.</li>
+        <li>* <span class="text-yellow-200 font-bold">Flask</span>- Flask is a lightweight Python web framework for building web applications with minimal code and flexibility.</li>
         <li>* <span class="text-yellow-200 font-bold">MongoDB</span>- Document oriented database programme.</li>
+        <li>* <span class="text-yellow-200 font-bold">PostGreSQL</span>- PostgreSQL is a robust, open-source relational database management system known for its reliability and extensibility.</li>
         </ul>
-      </div> <br><br><br><br><br><br><br><br><br>
+      </div>
+    <div class="mx-56  sm:mt-32">
+      <img src="Backend.png" alt="" srcset="">
+    </div></div> </div>
+         <br><br><br><br><br><br><br><br><br>
 
 
         <!--Skills Section End-->
@@ -98,21 +136,28 @@
 
  <!--Contacts Section start-->
       <div class="py-12" id="contacts">
-        <h1 class="font-extrabold text-3xl mx-10 text-blue-700 py-7"> Contacts</h1><br><br><br>
-        <section class="justify-end px-96 mx-20">
-        <button class=" btn box-border text-center rounded-xl border-blue-500 bg-slate-500 text-blue-600 mx-10 px-1 hover:bg-blue-800 hover:text-yellow-50 hover:shadow-lg hover:shadow-blue-700 font-extrabold" ><a href="https://www.facebook.com/Arifur.Rahman3302?mibextid=ZbWKwL"  target="_blank">Facebook</a></button>
-        
-        <button class=" btn  box-border  text-center rounded-xl border-pink-300 bg-gray-100 text-pink-500 hover:bg-red-400 hover:text-white hover:shadow-lg hover:shadow-red-400 font-extrabold"><a href="https://instagram.com/iamarifur.rahman?igshid=ZDdkNTZiNTM=" target="_blank">Instagram</a></button>
-        
-        <button class=" btn  border-box  border-blue-400  text-center rounded-xl bg-white text-blue-600 mx-10 hover:bg-blue-500 hover:text-blue-800 hover:shadow-lg hover:shadow-blue-400 font-extrabold"><a href="https://t.me/Imarifur4838" target="_blank">Telegram </a></button>
-      </section>
+        <div>
+          <h1 class="font-extrabold text-3xl mx-10 text-blue-700 py-7"> Contacts</h1><br><br><br>
+        </div>
+        <div class="flex">
+          <section class="justify-end px-96 mx-20 flex">
+            <div class="mt-6">
+              <button class=" btn box-border text-center rounded-xl border-blue-500 bg-slate-500 text-blue-600 mx-10 px-1 hover:bg-blue-800 hover:text-yellow-50 hover:shadow-lg hover:shadow-blue-700 font-extrabold" ><a href="https://www.facebook.com/Arifur.Rahman3302?mibextid=ZbWKwL"  target="_blank">Facebook</a></button>
+            </div>
+          
+          
+          <div class="mt-6"><button class=" btn  box-border  text-center rounded-xl border-green-300 bg-gray-100 text-green-300 hover:bg-green-300 hover:text-white hover:shadow-lg hover:shadow-green-300 font-extrabold"><a href="https://wa.me/message/Z5HV4CW5YVXJI1" target="_blank">WhatsApp</a></button></div>
+          
+          <div class="mt-6"><button class=" btn  border-box  border-blue-400  text-center rounded-xl bg-white text-blue-600 mx-10 hover:bg-blue-500 hover:text-blue-800 hover:shadow-lg hover:shadow-blue-400 font-extrabold"><a href="https://t.me/Imarifur4838" target="_blank">Telegram </a></button></div>
+        </section>
+        </div>
     </div><br><br><br>
     <!--Contacts Section end-->
 
     <hr class="bg-white"><br><br>
   <!--Start of footer-->
-    <footer class="text-yellow-200 font-bold px-96 mx-16">
-      © Arifur Rahman 2023, A Programming Hero initiative
+    <footer class="text-yellow-200 font-bold text-center">
+      © <span class="text-red-600 hover:text-red-400"><a href="home">Arifur Rahman</a></span> 2023
     </footer><br><br><br>
     <!--End of footer-->
 
